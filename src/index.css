@@ -17,6 +17,7 @@ html {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  min-height: 100vh;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -29,12 +30,7 @@ html {
 
 body {
   min-height: 100vh;
-}
-
-main {
-  display: flex;
-  align-content: center;
-  justify-content: center;
+  background-color: gray;
 }
 
 nav {
@@ -42,9 +38,16 @@ nav {
   justify-content: center;
   color: white;
   gap: 2rem;
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
   background-color: #242424;
+  padding: 0.5rem 1rem;
+  font-size: x-large;
+}
+
+li {
+  text-decoration: none;
 }
 
 button {

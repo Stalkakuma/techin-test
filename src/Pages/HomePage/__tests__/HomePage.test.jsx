@@ -11,5 +11,5 @@ const renderWithRouter = (component) => {
 test('should render homepage', () => {
   renderWithRouter(<HomePage />);
   const { container } = renderWithRouter(<HomePage />);
-  expect(container.innerHTML).toMatch('This is an example for a homepage. Good luck on the test!');
+  expect(container.innerHTML).toMatch('Knygos: ');
 });

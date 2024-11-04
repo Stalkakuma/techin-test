@@ -3,15 +3,9 @@ import { Link } from 'react-router-dom';
 export const Navbar = () => {
   return (
     <nav>
-      <li>
-        <Link to={'/'}>Knygos</Link>
-      </li>
-      <li>
-        <Link to={'/reg'}>Registruoti Knygą</Link>
-      </li>
-      <li>
-        <Link to={'/feedback'}>Atsiliepimas</Link>
-      </li>
+      <Link to={'/'}>Knygos</Link>
+      <Link to={'/reg'}>Registruoti Knygą</Link>
+      <Link to={'/feedback'}>Atsiliepimas</Link>
     </nav>
   );
 };

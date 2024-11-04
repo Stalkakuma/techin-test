@@ -1,8 +1,23 @@
-main {
+.main__grid {
   background-color: gray;
   display: grid;
-  height: 100vh;
-  padding: 0rem 4rem;
+  min-height: 100%;
+  padding: 2rem 4rem;
   grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
+}
+
+.search {
+  align-self: center;
+  padding: 0.5rem 3rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+h1 {
+  text-align: center;
 }
