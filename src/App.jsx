@@ -1,8 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import { HomePage } from './Pages/HomePage/HomePage';
 import { Navbar } from './Components/Navbar/Navbar';
-//TODO Rename or Delete during test
-import { TempPage } from './Pages/TempPage/TempPage';
+import { BookRegistration } from './Pages/BookReg/BookRegistration';
 
 const App = () => {
   return (
@@ -10,7 +9,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/temp" element={<TempPage />} />
+        <Route path="/reg" element={<BookRegistration />} />
       </Routes>
     </>
   );

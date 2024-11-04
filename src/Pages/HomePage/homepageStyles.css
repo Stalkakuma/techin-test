@@ -1,0 +1,8 @@
+main {
+  background-color: gray;
+  display: grid;
+  height: 100vh;
+  padding: 0rem 4rem;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}

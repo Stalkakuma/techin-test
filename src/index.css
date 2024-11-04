@@ -13,10 +13,6 @@ html {
   padding: 0;
 }
 
-img {
-  width: 100%;
-}
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -45,4 +41,12 @@ nav {
   display: flex;
   justify-content: center;
   color: white;
+  gap: 2rem;
+  position: fixed;
+  width: 100%;
+  background-color: #242424;
+}
+
+button {
+  cursor: pointer;
 }

@@ -4,10 +4,10 @@ export const Navbar = () => {
   return (
     <nav>
       <li>
-        <Link to={'/'}>Home</Link>
+        <Link to={'/'}>Knygos</Link>
       </li>
       <li>
-        <Link to={'/temp'}>Temp. Page</Link>
+        <Link to={'/reg'}>Registruoti Knygą</Link>
       </li>
     </nav>
   );

@@ -1,0 +1,25 @@
+article {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0.5rem 1rem;
+  border-radius: 5pt;
+}
+
+.card__image-box {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 100%;
+}
+
+button {
+  align-self: center;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  font-size: larger;
+}
