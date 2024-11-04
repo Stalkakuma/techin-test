@@ -9,6 +9,9 @@ export const Navbar = () => {
       <li>
         <Link to={'/reg'}>Registruoti Knygą</Link>
       </li>
+      <li>
+        <Link to={'/feedback'}>Atsiliepimas</Link>
+      </li>
     </nav>
   );
 };

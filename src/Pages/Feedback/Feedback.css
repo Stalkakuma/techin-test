@@ -1,0 +1,13 @@
+textarea {
+  background-color: white;
+  color: black;
+}
+
+.toast {
+  position: fixed;
+  background-color: orange;
+  color: white;
+  font-size: x-large;
+  padding: 0.5rem 1rem;
+  border-radius: 5pt;
+}
